@@ -1,6 +1,6 @@
 # Strapi Node Upload
 
-An example project, to this [Blogpost](https://raoulkramer.de/upload-media-files-to-strapi-within-a-node-process) how to upload binary data from node into strapi by using strapis restful endpoint secured by a role and a user.
+An example project, to this [blog post](https://raoulkramer.de/upload-media-files-to-strapi-within-a-node-process) how to upload binary data from node into strapi by using strapis restful endpoint secured by a role and a user.
 
 ## project
 
@@ -12,7 +12,7 @@ This Repository is all about the **[node-import.js](node-import.js)** file.
 
 `cp .env.example .env`
 
-Read the [blog post](https://raoulkramer.de/upload-media-files-to-strapi-within-a-node-process) if you do not know how to create a jwt.
+Have a look at the [blog post](https://raoulkramer.de/upload-media-files-to-strapi-within-a-node-process) if you do not know how to create the jwt.
 
 `npm run develop`
 
