@@ -1,6 +1,6 @@
 # Strapi Node Upload
 
-An exmaple project, to this [Blogpost](https://raoulkramer.de/upload-media-files-to-strapi-within-a-node-process) how to upload binary data from node into strapi by using strapis restful endpoint secured by a role and a user.
+An example project, to this [Blogpost](https://raoulkramer.de/upload-media-files-to-strapi-within-a-node-process) how to upload binary data from node into strapi by using strapis restful endpoint secured by a role and a user.
 
 ## project
 
