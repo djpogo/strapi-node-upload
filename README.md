@@ -12,7 +12,7 @@ This Repository is all about the **[node-import.js](node-import.js)** file.
 
 `cp .env.example .env`
 
-Read the [blog post}(upload-media-files-to-strapi-via-node-process) if you do not know how to create a jwt.
+Read the [blog post](https://raoulkramer.de/upload-media-files-to-strapi-within-a-node-process) if you do not know how to create a jwt.
 
 `npm run develop`
 
