@@ -114,6 +114,21 @@ function importSongs() {
   })
 }
 
+// the process starts by authenticating the api user
+// this functions will call the import function
+// when the user authenticate request is ended:
+// `
+// res.on('end', () => {
+//   // parse response string to JSON object
+//   const data = JSON.parse(response);
+
+//   // and store jwt "globally"
+//   jwt = data.jwt;
+
+//   // call importSongs() function
+//   importSongs();
+// });
+// `
 authenticateApiUser(
   process.env.API_USER_MAIL,
   process.env.API_USER_PASS
