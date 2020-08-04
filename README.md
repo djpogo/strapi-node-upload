@@ -4,7 +4,7 @@ An example project, to this [blog post](https://raoulkramer.de/upload-media-file
 
 ## project
 
-a simple **Song** entity will be filled by a node process, using strapis restful api and its role based access.
+a reduced **Song** (Title, File) entity will be filled by a node process, using strapis restful api and its role based access.
 
 This Repository is all about the **[node-import.js](node-import.js)** file.
 
@@ -12,7 +12,7 @@ This Repository is all about the **[node-import.js](node-import.js)** file.
 
 `cp .env.example .env`
 
-Have a look at the [blog post](https://raoulkramer.de/upload-media-files-to-strapi-within-a-node-process) if you do not know how to create the jwt.
+Provide api user credentials to .env file.
 
 `npm run develop`
 
