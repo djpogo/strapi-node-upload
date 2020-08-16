@@ -25,6 +25,14 @@
       }
     },
     {
+      "method": "GET",
+      "path": "/songs/:id/cover",
+      "handler": "song.cover",
+      "config": {
+        "policies": []
+      }
+    },
+    {
       "method": "POST",
       "path": "/songs",
       "handler": "song.create",
