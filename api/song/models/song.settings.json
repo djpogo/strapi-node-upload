@@ -2,15 +2,20 @@
   "kind": "collectionType",
   "collectionName": "songs",
   "info": {
-    "name": "song"
+    "name": "song",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "duration": {
+      "type": "float"
     },
     "mp3": {
       "model": "file",
