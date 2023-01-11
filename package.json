@@ -14,7 +14,7 @@
     "dotenv": "^8.2.0",
     "form-data": "^3.0.0",
     "got": "^11.8.2",
-    "knex": "<0.20.0",
+    "knex": "<2.5.0",
     "music-metadata": "^7.11.4",
     "sqlite3": "latest",
     "strapi": "^3.6.8",
